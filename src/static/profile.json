@@ -1,0 +1,6 @@
+{
+  "email_verified": true,
+  "sub": "1",
+  "name": "Fotrino",
+  "picture": "https://mock-oauth-server:4444/static/cow.png"
+}

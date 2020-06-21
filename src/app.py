@@ -1,7 +1,6 @@
 # Imports #####################################################################
 ###############################################################################
 
-import os
 import random
 import string
 import json
@@ -12,14 +11,11 @@ from flask import (
     request
 )
 
-USER_INFO = json.loads(os.environ.get("USER_INFO"))
-
-
 # Flask Setup #################################################################
 ###############################################################################
 
 # Initialise app
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 
 # Routes ######################################################################
@@ -47,7 +43,7 @@ def token():
 
 @app.route("/userinfo", methods=['GET'])
 def userinfo():
-    return json.dumps(USER_INFO)
+    return app.send_static_file("profile.json")
 
 
 # Main ########################################################################
