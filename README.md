@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/michaelmolino/fotrino-frontend?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 [![Sonar Violations (short format)](https://img.shields.io/sonar/violations/michaelmolino_mock-oauth-server?label=sonar%20violations&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)](https://sonarcloud.io/dashboard?id=michaelmolino_mock-oauth-server)
-[![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/michaelmolino/mock-oauth-server?style=for-the-badge)](https://libraries.io/github/michaelmolino/mock-oauth-server)
+[![Requires.io](https://img.shields.io/requires/github/michaelmolino/mock-oauth-server?style=for-the-badge)](https://requires.io/github/michaelmolino/mock-oauth-server/requirements/?branch=master)
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/michaelmolino/mock-oauth-server?style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/mock-oauth-server)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/michaelmolino/mock-oauth-server/latest?label=Docker%20Image%20Size&style=for-the-badge)](https://hub.docker.com/repository/docker/michaelmolino/mock-oauth-server)
 
