@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-Flask = "~=2.2.5"
+Flask = "*"
 pyopenssl = "*"
 gunicorn = "*"
 
